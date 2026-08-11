@@ -14,6 +14,35 @@ body{
 }
 
 my-element {
-    display:block
+    display:block;
     
 }
+
+.snow {
+    width: 15%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+a:link {
+  color: #80ffa0;
+}
+
+/* visited link */
+a:visited {
+  color: #137300;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 113, 38);
+} 
