@@ -74,11 +74,11 @@
     the images as variables */
 
             :root {
-                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+                --header-image: url('./images/sunrised.png');
+                --body-bg-image: url('./images/greyer.jpeg');
 
                 /* colors */
-                --content: #43256E;
+                --content: #2936c5;
             }
 
             /* if you have the URL of a font, you can set it below */
@@ -124,6 +124,9 @@
                 background-size: 65px;
                 color: #fceaff;
                 background-image: var(--body-bg-image);
+                background-repeat: no-repeat;
+                background-size: cover;
+
             }
 
             * {
