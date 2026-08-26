@@ -1,0 +1,74 @@
+stack {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+
+  background-color: black;
+  background-image: url("./images/sunrised.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: larger;
+
+  font-family: "zen";
+  color: aliceblue;
+}
+
+@font-face {
+  font-family: "zen";
+  src: url("./fonts/ZenKurenaido-Regular.ttf") format("truetype");
+}
+
+#container {
+  max-width: 900px;
+  /* this is the width of your layout! */
+  /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+  margin: 0 auto;
+  /* this centers the entire page */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  background-color: #41407c72;
+}
+
+aside {
+  background-color: #41407c72;
+  width: 25%;
+  padding: 3%;
+  padding-right: 5%;
+  font-size: large;
+  margin-right: 1%;
+  margin-top: 10%;
+}
+
+a:link {
+  color: #88c7ff;
+}
+
+/* visited link */
+a:visited {
+  color: #1e26c9;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 113, 38);
+}
